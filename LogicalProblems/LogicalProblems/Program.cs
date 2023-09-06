@@ -10,7 +10,7 @@ namespace LogicalProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the Problem Number: " + "1. Fibonacci Series");
+            Console.WriteLine("Enter the Problem Number: " + "1. Fibonacci Series" + "2. Perfect Number");
             int n=int.Parse(Console.ReadLine());
 
             switch (n)
@@ -19,6 +19,10 @@ namespace LogicalProblems
 
                     Fibonacci_Series.FS();
                     Console.ReadLine();
+                    break;
+                case 2:
+
+                    Perfect_Number.PNumber();
                     break;
 
 
