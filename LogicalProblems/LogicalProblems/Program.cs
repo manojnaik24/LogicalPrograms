@@ -10,7 +10,7 @@ namespace LogicalProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the Problem Number: " + "1.Fibonacci Series" +   "   2.Perfect Number"   +  "   3.Prime Number");
+            Console.WriteLine("Enter the Problem Number: " + "1.Fibonacci Series" +   "   2.Perfect Number"   +  "   3.Prime Number"+"Reverse a Number");
             int n=int.Parse(Console.ReadLine());
 
             switch (n)
@@ -28,6 +28,10 @@ namespace LogicalProblems
 
                 case 3:
                     Prime_Number.PN();
+                    break;
+
+                case 4:
+                    Reverse_a_number.RN();
                     break;
 
             }
